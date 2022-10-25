@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl text-center font-bold ">Contact Me</p>
+          <h2 className="text-4xl text-center font-bold ">Contact Me</h2>
         </div>
 
         <div className=" flex justify-center items-center">
@@ -20,26 +20,26 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Enter Company Name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              placeholder="Company Name"
+              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="name"
               placeholder="Full Name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="E-Mail "
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">

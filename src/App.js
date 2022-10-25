@@ -5,6 +5,7 @@ import SocialLinks from "./components/SocialLinks";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import BackTopBtn from "./components/BackTopBtn";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <SocialLinks />
       <Experience />
       <Contact />
+      <BackTopBtn />
     </div>
   );
 }
