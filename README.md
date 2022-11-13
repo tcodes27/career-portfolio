@@ -1,5 +1,6 @@
 # Career Portfolio (In process)
 
+![Dashboard](./public/portfolioImage.png)
 <br>
 
 ## Highlights
