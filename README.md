@@ -17,9 +17,7 @@
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-###### More information coming soon!
-
 <br>
 
-<!-- add website
-add my author details later -->
+![Website](https://tierrabcodes.com)
+Author: Tierra Barrow

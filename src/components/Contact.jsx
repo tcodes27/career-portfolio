@@ -8,12 +8,14 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <h2 className="text-4xl text-center font-bold ">Contact Me</h2>
+          <p className="text-4xl text-center font-bold border-gray-600">
+            Contact Me
+          </p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://getform.io/f/b21b900f-1757-48ff-b2dd-4f0fee676479"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >

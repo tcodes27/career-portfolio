@@ -1,15 +1,21 @@
 import React from "react";
-import projectImage from "../assets/portfolio/projectImage.jpg";
+import projectImage from "../assets/projectImage.jpg";
+import bioFourmisImage from "../assets/bioFourmisImage.png";
+import blueHairLabel from "../assets/blueHairLabel.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: projectImage,
+      src: bioFourmisImage,
+      hrefDemo: "https://biofourmis.netlify.app/",
+      hrefCode: "https://github.com/tcodes27/biofourmis-ag-app",
     },
     {
       id: 2,
-      src: projectImage,
+      src: blueHairLabel,
+      hrefDemo: "https://ibb.co/cgDBmGS",
+      hrefCode: "",
     },
     {
       id: 3,
@@ -24,11 +30,13 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold ">FrontEnd Portfolio</p>
+          <p className="text-4xl font-bold inline border-b-4 border-gray-600">
+            Portfolio
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, hrefDemo, hrefCode }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -36,18 +44,30 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a
+                  href={hrefDemo}
+                  className="flex justify-between items-center w-full text-white"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href={hrefCode}
+                  className="flex justify-between items-center w-full text-white"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
         </div>
-
-        <p className="py-8 ">BackEnd Portfolio Coming Soon...</p>
       </div>
     </div>
   );
