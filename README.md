@@ -19,6 +19,6 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <br>
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/926bff7a-c62c-4396-9655-13334d77e540/deploy-status)](https://app.netlify.com/sites/career-portfolio-projects/deploys)
 ![Website](https://tierrabcodes.com)
 Author: Tierra Barrow
