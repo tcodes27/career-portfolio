@@ -1,4 +1,4 @@
-# Career Portfolio (In process)
+# Career Portfolio
 
 ![Dashboard](./public/portfolioImage.png)
 <br>
